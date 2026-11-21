@@ -1,0 +1,6 @@
+service vendor.bluetooth-1-0 /vendor/bin/hw/android.hardware.bluetooth@1.0-service.pxa988
+    interface android.hardware.bluetooth@1.0::IBluetoothHci default
+    class hal
+    user bluetooth
+    group bluetooth net_bt_admin system
+    capabilities NET_ADMIN
