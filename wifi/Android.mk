@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Linux rtnetlink-backed Wi-Fi HAL metadata backend for the PXA988 nl80211 driver.
 # Android 9's default Wi-Fi HIDL service still consumes the legacy HAL function
 # table; wificond handles scan, association, and nl80211 control.

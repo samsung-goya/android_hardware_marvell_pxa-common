@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0-or-later
 /*
  * Lights HAL for Marvell PXA988/PXA986 (Linux 4.19 DRM/KMS backlight).
  */
@@ -159,6 +159,6 @@ struct hw_module_t HAL_MODULE_INFO_SYM = {
     .hal_api_version = HARDWARE_HAL_API_VERSION,
     .id = LIGHTS_HARDWARE_MODULE_ID,
     .name = "Marvell PXA988 Lights HAL",
-    .author = "LineageOS goyawifi",
+    .author = "samsung-goya",
     .methods = &pxa_lights_methods,
 };

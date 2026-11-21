@@ -1,6 +1,6 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0-or-later
 /*
- * Copyright (C) 2026 The LineageOS Project
+ * Copyright (C) 2026 samsung-goya
  *
  * Stateful V4L2 Memory-to-Memory OpenMAX IL Hardware Plugin (libstagefrighthw)
  * for Marvell PXA988 / PXA986 Chips&Media CODA7542 VPU (Linux 4.19 coda.ko).

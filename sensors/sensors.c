@@ -1,5 +1,5 @@
 /*
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: GPL-3.0-or-later
  *
  * IIO Sensors HAL for Marvell PXA988 / PXA986 (Bosch BMA255 accelerometer)
  */
@@ -378,7 +378,7 @@ struct sensors_module_t HAL_MODULE_INFO_SYM = {
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = SENSORS_HARDWARE_MODULE_ID,
         .name = "PXA988 IIO Sensors HAL",
-        .author = "LineageOS goyawifi",
+        .author = "samsung-goya",
         .methods = &s_sensors_module_methods,
     },
     .get_sensors_list = pxa_get_sensors_list,

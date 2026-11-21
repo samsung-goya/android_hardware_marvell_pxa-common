@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0-or-later
 /*
  * Power HAL for Marvell PXA988/PXA986 (Linux 4.19 cpufreq-dt + schedutil).
  */
@@ -217,7 +217,7 @@ struct power_module HAL_MODULE_INFO_SYM = {
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = POWER_HARDWARE_MODULE_ID,
         .name = "Marvell PXA988 Power HAL",
-        .author = "LineageOS goyawifi",
+        .author = "samsung-goya",
         .methods = NULL,
     },
     .init = pxa_power_init,

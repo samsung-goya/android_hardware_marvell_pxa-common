@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Common HAL packages for Marvell PXA988/PXA986 platform (Linux 4.19)
 
 # Lights HAL (vx5b3d-backlight)

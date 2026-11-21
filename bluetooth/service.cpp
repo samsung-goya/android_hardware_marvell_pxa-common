@@ -1,5 +1,5 @@
 /*
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: GPL-3.0-or-later
  *
  * Linux HCI_CHANNEL_USER Bluetooth HAL service for Marvell PXA988 (btmrvl_sdio hci0).
  */

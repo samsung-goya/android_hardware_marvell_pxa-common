@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # OpenMAX IL Hardware VPU Plugin (libstagefrighthw) for Chips&Media CODA7542
 # (Linux 4.19 stateful V4L2 M2M driver coda.ko on /dev/video[1-4])

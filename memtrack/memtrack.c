@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0-or-later
 /*
  * Minimal Memtrack HAL for Marvell PXA988/PXA986 (Linux 4.19).
  */
@@ -44,7 +44,7 @@ struct memtrack_module HAL_MODULE_INFO_SYM = {
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = MEMTRACK_HARDWARE_MODULE_ID,
         .name = "Marvell PXA988 Memtrack HAL",
-        .author = "LineageOS goyawifi",
+        .author = "samsung-goya",
         .methods = &pxa_memtrack_methods,
     },
     .init = pxa_memtrack_init,
